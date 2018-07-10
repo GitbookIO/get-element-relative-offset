@@ -4,3 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 # Unreleased
 
+# 1.0.0
+
+- First release
+
