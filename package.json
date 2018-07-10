@@ -1,0 +1,35 @@
+{
+  "name": "get-element-offset",
+  "description": "Find the position of a DOM element relative to another.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "repository": "git://github.com/GitbookIO/get-element-offset.git",
+  "main": "./dist/index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.10.0",
+    "eslint-config-gitbook": "^2.0.3",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "flow-bin": "^0.57.3"
+  },
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist",
+    "prepublish": "npm run build",
+    "lint": "eslint ./src"
+  },
+  "keywords": [
+    "DOM",
+    "getBoundingClientRect",
+    "relative",
+    "offset"
+  ]
+}
