@@ -1,9 +1,9 @@
 {
-  "name": "get-element-offset",
+  "name": "get-element-relative-offset",
   "description": "Find the position of a DOM element relative to another.",
   "version": "1.0.0",
   "license": "Apache-2.0",
-  "repository": "git://github.com/GitbookIO/get-element-offset.git",
+  "repository": "git://github.com/GitbookIO/get-element-relative-offset.git",
   "main": "./dist/index.js",
   "dependencies": {
   },
